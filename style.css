@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
 :root {
     ---color1:#2E50D9;
     ---color2:#2E86D9;
@@ -10,4 +12,146 @@
 
 body {
 
+    background-color: #2E86D9;
+
+}
+
+header {
+    position: fixed;
+    background-color: #7BADDB;
+    width: 100%;
+    left:0;
+    top:0;
+    z-index: 9999;
+
+}
+
+header p {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 3;
+}
+
+header nav {
+    margin-left: 20px;
+
+}
+
+header a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding:2px;
+    
+}
+
+
+
+main {
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 40px;
+    box-shadow: 0px 0px 20px #102d49;
+    text-align: justify;
+    border-radius: 0px 0px 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
+    letter-spacing: normal;
+    
+
+
+}
+
+main img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+main h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 2em;
+}
+
+main h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 1.5em;
+}
+
+main h3 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+main iframe {
+    position: absolute;
+    left:10;
+    top:5%;
+    width: 100%;
+    height: 90%;
+    
+   
+
+
+}
+
+main #video {
+    position: relative;
+    padding-bottom: 60%;
+    
+}
+
+div.video {
+    background-color: #2E50D9;
+    margin-left: -40px;
+    margin-right:-40px ;
+}
+
+aside {
+    background-color: #2ED9BD;
+    width: 100%;
+    margin: 20px 0px 0px -40px;
+    padding-right: 80px ;
+    padding-bottom: 20px;
+    border-radius: 25px 25px 0px 0px;
+
+}
+
+aside h2 {
+    background-color: #2EBCD9;
+    width: 100%;
+    padding-right: 80px;
+    padding-bottom: 5px;
+    border-radius: 25px 25px 0px 0px;
+    
+}
+
+aside ol {
+    columns: 2;
+}
+
+aside a {
+    color:black;
+    text-decoration: none;
+}
+
+aside a:hover {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #102d49;
+    color:white;
+    text-decoration: underline;
+    font-size: 19px;
+}
+
+footer {
+    
 }
