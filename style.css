@@ -76,7 +76,7 @@ header> nav > a:hover {
     
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:400px) {
     header nav {
         display: none;
     }
@@ -91,7 +91,7 @@ header .menu {
     
 }
 
-@media screen and (min-width:320px) {
+@media screen and (min-width:400px) {
     .menu {
         display: none;
     }
